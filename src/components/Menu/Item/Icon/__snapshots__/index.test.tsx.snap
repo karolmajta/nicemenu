@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly for every allowed icon name 1`] = `
+<div
+  class="Laserfocus-Menu-Item-Icon sc-bdnylx uunbO"
+  data-testid="Laserfocus-Menu-Item-Icon"
+>
+  <img
+    alt="bolt.svg"
+  />
+</div>
+`;
+
+exports[`renders correctly for every allowed icon name 2`] = `
+<div
+  class="Laserfocus-Menu-Item-Icon sc-bdnylx uunbO"
+  data-testid="Laserfocus-Menu-Item-Icon"
+>
+  <img
+    alt="dot.svg"
+  />
+</div>
+`;
+
+exports[`renders correctly for every allowed icon name 3`] = `
+<div
+  class="Laserfocus-Menu-Item-Icon sc-bdnylx uunbO"
+  data-testid="Laserfocus-Menu-Item-Icon"
+>
+  <img
+    alt="inbox.svg"
+  />
+</div>
+`;
+
+exports[`renders correctly for every allowed icon name 4`] = `
+<div
+  class="Laserfocus-Menu-Item-Icon sc-bdnylx uunbO"
+  data-testid="Laserfocus-Menu-Item-Icon"
+>
+  <img
+    alt="loader.svg"
+  />
+</div>
+`;
+
+exports[`renders correctly for every allowed icon name 5`] = `
+<div
+  class="Laserfocus-Menu-Item-Icon sc-bdnylx uunbO"
+  data-testid="Laserfocus-Menu-Item-Icon"
+>
+  <img
+    alt="pencil.svg"
+  />
+</div>
+`;
+
+exports[`renders correctly for every allowed icon name 6`] = `
+<div
+  class="Laserfocus-Menu-Item-Icon sc-bdnylx uunbO"
+  data-testid="Laserfocus-Menu-Item-Icon"
+>
+  <img
+    alt="reschedule.svg"
+  />
+</div>
+`;

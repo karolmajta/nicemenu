@@ -1,44 +1,135 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+# Laserfocus Menu README
 
-### `npm start`
+## Development and installation instructions
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### node & npm
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+This project is a standard nodejs application, which means standard stack
+`npm` based stack can be used to set it up and run it.
 
-### `npm test`
+There is `.nvmrc` so you can do:
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```shell script
+$ nvm use
+```
 
-### `npm run build`
+to automatically select an appropriate `node`/`npm` versions.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Preparation
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+To install the dependencies it is sufficient to just do:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```shell script
+$ npm install
+```
 
-### `npm run eject`
+## Building
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Building the application
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```shell script
+$ npm run build
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+will give you an application that you can host on any static file
+server.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Will build the documentation you are now reading.
 
-## Learn More
+## Running in development
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Application development
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+To start a development server run:
+
+```shell script
+$ npm run start
+```
+
+This will start a development server with livereload and all the bells and
+whistles at **http://localhost:8080**.
+
+### Running the tests
+
+Tests can be run with:
+
+```shell script
+$ npm run test
+```
+
+### Auxiliary scripts
+
+To format the code with `prettier` run:
+
+```shell script
+$ npm run format
+```
+
+To check the code with `eslint` run:
+
+```shell script
+$ npm run lint
+``` 
+
+## FAQ
+
+Answers to [Architecture Challenge #2](https://www.notion.so/Architecture-Challenge-2-dd8a3376788b49fe99840714ae9d75cf):
+
+### UI
+
+- > Control Grouping and Sorting
+  
+  Grouping and sorting is done just by providing groups/items in props
+  in correct order. Sort order when searching is now undefined but this
+  is easy to fix.
+
+- > Optionally show an Icon
+  
+  Done.
+
+- > Show A header that contains values from (e.g. Name) from the selected Context
+  
+  Done.
+
+- > show Shortcut (if available)
+  
+  Done.
+
+### Flow
+
+- > Actions depending "Focused Context"
+  
+  This can be achieved using the "submenus" prop. You can create/navigate
+  multiple submenus (contexts). Which submenus/context are present is decided
+  when creating `Menu` component, so user can use it in any context(s) they
+  wish.
+
+- > Actions can have Subactions + Show Subactions only when filtering 
+  
+  Done. Subactions are basically stored in submenus. All matching subactions
+  (disregarding the level of submenu nesting) are shown when searching. For
+  simplicity actions (items) with `goto` prop set are not shown where searching
+  (a.k.a. actions toggling submenus are not present when search is active).
+
+### Triggering Actions 
+
+- > Individual Actions should also be executable on a button
+  
+  This is actuall a werid one... I don't know how `Menu` should be in any
+  way involved in triggering an action from a button that's just somewhere
+  in a page (that's what the video shows). Of course you can have some higher
+  level action dispatch mechanism (mobx or redux), but this has nothing to
+  do with the `Menu` itself and `Menu` should be unaware of it.
+
+- > Individual Actions should also be executable via shortcut
+  
+  This is implemented for `Menu`, when `Menu` is shown, but the video
+  shows keyboard actions used when hovering over a list item. Just like in
+  the answer above, `Menu` shall not be involved in that. In fact, `Menu`
+  is not even in the dom at the time this happens... You need some other
+  abstraction to handle this (mobx, redux or just a top-level React component).
+   
+
+ 

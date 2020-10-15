@@ -1,0 +1,570 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`filters when user types into search box 1`] = `
+<div
+  class="Laserfocus-Menu sc-eCApGN kJvQwO"
+  data-testid="Laserfocus-Menu"
+>
+  <div
+    class="menu-title"
+  >
+    <div
+      class="menu-title-text"
+    >
+      Search results for: log
+    </div>
+  </div>
+  <div
+    class="Laserfocus-Menu-SearchBox sc-hKFyIo ivSqkU"
+    data-testid="Laserfocus-Menu-SearchBox"
+  >
+    <input
+      placeholder="Search..."
+      type="text"
+      value="log"
+    />
+  </div>
+  <div
+    class="Laserfocus-Menu-Item sc-gtssRu iLlUnN"
+    data-testid="Laserfocus-Menu-Item"
+  >
+    <div
+      class="Laserfocus-Menu-Item-Icon sc-bdnylx uunbO"
+      data-testid="Laserfocus-Menu-Item-Icon"
+    >
+      <img
+        alt="bolt"
+        src="bolt.svg"
+      />
+    </div>
+    <div
+      class="item-label"
+    >
+      Log an activity
+    </div>
+    <div
+      class="item-shortcut"
+    >
+      <div
+        class="item-shortcut-parts"
+      >
+        <div
+          class="item-shortcut-step"
+        >
+          c
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`follows goto in item correctly 1`] = `
+<div
+  class="Laserfocus-Menu sc-eCApGN kJvQwO"
+  data-testid="Laserfocus-Menu"
+>
+  <div
+    class="menu-title"
+  >
+    <div
+      class="menu-title-text"
+    >
+      Inbox
+    </div>
+  </div>
+  <div
+    class="Laserfocus-Menu-SearchBox sc-hKFyIo ivSqkU"
+    data-testid="Laserfocus-Menu-SearchBox"
+  >
+    <input
+      placeholder="Press arrow left to search or type command..."
+      type="text"
+      value=""
+    />
+  </div>
+  <div
+    class="Laserfocus-Menu-Item highlighted sc-gtssRu iLlUnN"
+    data-testid="Laserfocus-Menu-Item"
+  >
+    <div
+      class="icon-placeholder"
+    />
+    <div
+      class="item-label"
+    >
+      This is not spam!
+    </div>
+  </div>
+  <div
+    class="Laserfocus-Menu-Item sc-gtssRu iLlUnN"
+    data-testid="Laserfocus-Menu-Item"
+  >
+    <div
+      class="icon-placeholder"
+    />
+    <div
+      class="item-label"
+    >
+      Remember to hire Karol.
+    </div>
+  </div>
+  <div
+    class="Laserfocus-Menu-Item sc-gtssRu iLlUnN"
+    data-testid="Laserfocus-Menu-Item"
+  >
+    <div
+      class="icon-placeholder"
+    />
+    <div
+      class="item-label"
+    >
+      Hey, how is it going?
+    </div>
+  </div>
+  <div
+    class="Laserfocus-Menu-Group sc-dlnjPT fMMgoZ"
+    data-testid="Laserfocus-Menu-Group"
+  >
+    <div
+      class="group-label"
+    >
+      <div
+        class="group-label-text"
+      >
+        Mail actions...
+      </div>
+    </div>
+    <div
+      class="Laserfocus-Menu-Item sc-gtssRu iLlUnN"
+      data-testid="Laserfocus-Menu-Item"
+    >
+      <div
+        class="Laserfocus-Menu-Item-Icon sc-bdnylx uunbO"
+        data-testid="Laserfocus-Menu-Item-Icon"
+      >
+        <img
+          alt="pencil"
+          src="pencil.svg"
+        />
+      </div>
+      <div
+        class="item-label"
+      >
+        Create new message
+      </div>
+      <div
+        class="item-shortcut"
+      >
+        <div
+          class="item-shortcut-parts"
+        >
+          <div
+            class="item-shortcut-step"
+          >
+            m
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="Laserfocus-Menu-Item sc-gtssRu iLlUnN"
+      data-testid="Laserfocus-Menu-Item"
+    >
+      <div
+        class="Laserfocus-Menu-Item-Icon sc-bdnylx uunbO"
+        data-testid="Laserfocus-Menu-Item-Icon"
+      >
+        <img
+          alt="reschedule"
+          src="reschedule.svg"
+        />
+      </div>
+      <div
+        class="item-label"
+      >
+        Check for new mail
+      </div>
+      <div
+        class="item-shortcut"
+      >
+        <div
+          class="item-shortcut-parts"
+        >
+          <div
+            class="item-shortcut-step"
+          >
+            r
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="Laserfocus-Menu-Group sc-dlnjPT fMMgoZ"
+    data-testid="Laserfocus-Menu-Group"
+  >
+    <div
+      class="group-label"
+    >
+      <div
+        class="group-label-text"
+      >
+        Go to...
+      </div>
+    </div>
+    <div
+      class="Laserfocus-Menu-Item sc-gtssRu iLlUnN"
+      data-testid="Laserfocus-Menu-Item"
+    >
+      <div
+        class="Laserfocus-Menu-Item-Icon sc-bdnylx uunbO"
+        data-testid="Laserfocus-Menu-Item-Icon"
+      >
+        <img
+          alt="dot"
+          src="dot.svg"
+        />
+      </div>
+      <div
+        class="item-label"
+      >
+        Go to focus
+      </div>
+      <div
+        class="item-shortcut"
+      >
+        <div
+          class="item-shortcut-parts"
+        >
+          <div
+            class="item-shortcut-step"
+          >
+            g
+          </div>
+          <div
+            class="item-shortcut-part-separator"
+          >
+            then
+          </div>
+        </div>
+        <div
+          class="item-shortcut-parts"
+        >
+          <div
+            class="item-shortcut-step"
+          >
+            f
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="Laserfocus-Menu-Item sc-gtssRu iLlUnN"
+      data-testid="Laserfocus-Menu-Item"
+    >
+      <div
+        class="icon-placeholder"
+      />
+      <div
+        class="item-label"
+      >
+        Go to main menu
+      </div>
+      <div
+        class="item-shortcut"
+      >
+        <div
+          class="item-shortcut-parts"
+        >
+          <div
+            class="item-shortcut-step"
+          >
+            g
+          </div>
+          <div
+            class="item-shortcut-part-separator"
+          >
+            then
+          </div>
+        </div>
+        <div
+          class="item-shortcut-parts"
+        >
+          <div
+            class="item-shortcut-step"
+          >
+            m
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders correctly 1`] = `
+<div
+  class="Laserfocus-Menu sc-eCApGN kJvQwO"
+  data-testid="Laserfocus-Menu"
+>
+  <div
+    class="menu-title"
+  >
+    <div
+      class="menu-title-text"
+    >
+      Main menu
+    </div>
+  </div>
+  <div
+    class="Laserfocus-Menu-SearchBox sc-hKFyIo ivSqkU"
+    data-testid="Laserfocus-Menu-SearchBox"
+  >
+    <input
+      placeholder="Search..."
+      type="text"
+      value=""
+    />
+  </div>
+  <div
+    class="Laserfocus-Menu-Item sc-gtssRu iLlUnN"
+    data-testid="Laserfocus-Menu-Item"
+  >
+    <div
+      class="Laserfocus-Menu-Item-Icon sc-bdnylx uunbO"
+      data-testid="Laserfocus-Menu-Item-Icon"
+    >
+      <img
+        alt="bolt"
+        src="bolt.svg"
+      />
+    </div>
+    <div
+      class="item-label"
+    >
+      Log an activity
+    </div>
+    <div
+      class="item-shortcut"
+    >
+      <div
+        class="item-shortcut-parts"
+      >
+        <div
+          class="item-shortcut-step"
+        >
+          c
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="Laserfocus-Menu-Item sc-gtssRu iLlUnN"
+    data-testid="Laserfocus-Menu-Item"
+  >
+    <div
+      class="Laserfocus-Menu-Item-Icon sc-bdnylx uunbO"
+      data-testid="Laserfocus-Menu-Item-Icon"
+    >
+      <img
+        alt="reschedule"
+        src="reschedule.svg"
+      />
+    </div>
+    <div
+      class="item-label"
+    >
+      Set a reminder
+    </div>
+    <div
+      class="item-shortcut"
+    >
+      <div
+        class="item-shortcut-parts"
+      >
+        <div
+          class="item-shortcut-step"
+        >
+          h
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="Laserfocus-Menu-Item sc-gtssRu iLlUnN"
+    data-testid="Laserfocus-Menu-Item"
+  >
+    <div
+      class="Laserfocus-Menu-Item-Icon sc-bdnylx uunbO"
+      data-testid="Laserfocus-Menu-Item-Icon"
+    >
+      <img
+        alt="loader"
+        src="loader.svg"
+      />
+    </div>
+    <div
+      class="item-label"
+    >
+      Change status
+    </div>
+    <div
+      class="item-shortcut"
+    >
+      <div
+        class="item-shortcut-parts"
+      >
+        <div
+          class="item-shortcut-step"
+        >
+          Shift
+        </div>
+        <div
+          class="item-shortcut-step"
+        >
+          s
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="Laserfocus-Menu-Item sc-gtssRu iLlUnN"
+    data-testid="Laserfocus-Menu-Item"
+  >
+    <div
+      class="Laserfocus-Menu-Item-Icon sc-bdnylx uunbO"
+      data-testid="Laserfocus-Menu-Item-Icon"
+    >
+      <img
+        alt="pencil"
+        src="pencil.svg"
+      />
+    </div>
+    <div
+      class="item-label"
+    >
+      Edit contact
+    </div>
+    <div
+      class="item-shortcut"
+    >
+      <div
+        class="item-shortcut-parts"
+      >
+        <div
+          class="item-shortcut-step"
+        >
+          e
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="Laserfocus-Menu-Group sc-dlnjPT fMMgoZ"
+    data-testid="Laserfocus-Menu-Group"
+  >
+    <div
+      class="group-label"
+    >
+      <div
+        class="group-label-text"
+      >
+        Go to...
+      </div>
+    </div>
+    <div
+      class="Laserfocus-Menu-Item sc-gtssRu iLlUnN"
+      data-testid="Laserfocus-Menu-Item"
+    >
+      <div
+        class="Laserfocus-Menu-Item-Icon sc-bdnylx uunbO"
+        data-testid="Laserfocus-Menu-Item-Icon"
+      >
+        <img
+          alt="inbox"
+          src="inbox.svg"
+        />
+      </div>
+      <div
+        class="item-label"
+      >
+        Go to inbox
+      </div>
+      <div
+        class="item-shortcut"
+      >
+        <div
+          class="item-shortcut-parts"
+        >
+          <div
+            class="item-shortcut-step"
+          >
+            g
+          </div>
+          <div
+            class="item-shortcut-part-separator"
+          >
+            then
+          </div>
+        </div>
+        <div
+          class="item-shortcut-parts"
+        >
+          <div
+            class="item-shortcut-step"
+          >
+            i
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="Laserfocus-Menu-Item sc-gtssRu iLlUnN"
+      data-testid="Laserfocus-Menu-Item"
+    >
+      <div
+        class="Laserfocus-Menu-Item-Icon sc-bdnylx uunbO"
+        data-testid="Laserfocus-Menu-Item-Icon"
+      >
+        <img
+          alt="dot"
+          src="dot.svg"
+        />
+      </div>
+      <div
+        class="item-label"
+      >
+        Go to focus
+      </div>
+      <div
+        class="item-shortcut"
+      >
+        <div
+          class="item-shortcut-parts"
+        >
+          <div
+            class="item-shortcut-step"
+          >
+            g
+          </div>
+          <div
+            class="item-shortcut-part-separator"
+          >
+            then
+          </div>
+        </div>
+        <div
+          class="item-shortcut-parts"
+        >
+          <div
+            class="item-shortcut-step"
+          >
+            f
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

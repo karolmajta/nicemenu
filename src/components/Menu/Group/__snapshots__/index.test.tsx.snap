@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  class="Laserfocus-Menu-Group sc-dlnjPT fMMgoZ"
+  data-testid="Laserfocus-Menu-Group"
+>
+  <div
+    class="group-label"
+  >
+    <div
+      class="group-label-text"
+    >
+      Example label
+    </div>
+  </div>
+  <div
+    class="Laserfocus-Menu-Item sc-gtssRu iLlUnN"
+    data-testid="Laserfocus-Menu-Item"
+  >
+    <div
+      class="icon-placeholder"
+    />
+    <div
+      class="item-label"
+    >
+      Eample item 1
+    </div>
+  </div>
+  <div
+    class="Laserfocus-Menu-Item sc-gtssRu iLlUnN"
+    data-testid="Laserfocus-Menu-Item"
+  >
+    <div
+      class="icon-placeholder"
+    />
+    <div
+      class="item-label"
+    >
+      Eample item 2
+    </div>
+  </div>
+</div>
+`;

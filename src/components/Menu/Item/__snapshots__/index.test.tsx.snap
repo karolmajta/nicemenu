@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  class="Laserfocus-Menu-Item sc-gtssRu iLlUnN"
+  data-testid="Laserfocus-Menu-Item"
+>
+  <div
+    class="Laserfocus-Menu-Item-Icon sc-bdnylx uunbO"
+    data-testid="Laserfocus-Menu-Item-Icon"
+  >
+    <img
+      alt="bolt"
+      src="bolt.svg"
+    />
+  </div>
+  <div
+    class="item-label"
+  >
+    Example item
+  </div>
+  <div
+    class="item-shortcut"
+  >
+    <div
+      class="item-shortcut-parts"
+    >
+      <div
+        class="item-shortcut-step"
+      >
+        a
+      </div>
+      <div
+        class="item-shortcut-part-separator"
+      >
+        then
+      </div>
+    </div>
+    <div
+      class="item-shortcut-parts"
+    >
+      <div
+        class="item-shortcut-step"
+      >
+        b
+      </div>
+      <div
+        class="item-shortcut-step"
+      >
+        c
+      </div>
+      <div
+        class="item-shortcut-part-separator"
+      >
+        then
+      </div>
+    </div>
+    <div
+      class="item-shortcut-parts"
+    >
+      <div
+        class="item-shortcut-step"
+      >
+        d
+      </div>
+    </div>
+  </div>
+</div>
+`;
